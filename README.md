@@ -22,8 +22,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/chanwinharold/clipboard-landing-page-master)
+- Live Site URL: [Live site URL here](https://clipboard-landing-page-master-iota-rosy.vercel.app/)
 
 ### Built with
 
@@ -32,6 +32,7 @@ Your users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- CSS ANIMATIONS
 
 ## Author
 

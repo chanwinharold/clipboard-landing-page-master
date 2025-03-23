@@ -1,3 +1,56 @@
 @import "tailwindcss";
 
+@theme base {
+    /*Primary*/
+    --color-customStrongCyan: hsl(171, 66%, 44%);
+    --color-customLightBlue: hsl(233, 100%, 69%);
 
+    /*Neutral*/
+    --color-customDarkGrayishBlue: hsl(210, 10%, 33%);
+    --color-customGrayishBlue: hsl(201, 11%, 66%);
+}
+
+@layer base{
+
+    .icon {
+        transition: transform 200ms ease-out;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.5);
+        }
+    }
+
+    body {
+        min-height: 100vh;
+        font-size: 1.2em;
+
+        header {
+            img {
+                transition: transform 600ms ease-out;
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.5) rotate(1turn);
+                }
+            }
+        }
+
+        button {
+            color: white;
+            font-weight: 600;
+            opacity: 1;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
+            &:active {
+                box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+            }
+        }
+    }
+
+    footer {
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
