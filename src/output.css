@@ -1134,6 +1134,12 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .border-b-customLightBlue {
+    border-bottom-color: var(--color-customLightBlue);
+  }
+  .border-b-customStrongCyan {
+    border-bottom-color: var(--color-customStrongCyan);
+  }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
   }
@@ -1925,20 +1931,6 @@
   .transform-view {
     transform-box: view-box;
   }
-  .hover\:bg-customStrongCyan {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-customStrongCyan);
-      }
-    }
-  }
-  .hover\:text-customStrongCyan {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-customStrongCyan);
-      }
-    }
-  }
   .max-xl\:max-w-\[100vw\] {
     @media (width < 80rem) {
       max-width: 100vw;
@@ -2029,12 +2021,14 @@
       color: white;
       font-weight: 600;
       opacity: 1;
+      border-bottom: 8px ridge;
       &:hover {
         cursor: pointer;
         opacity: 0.8;
       }
       &:active {
         box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+        border-bottom: 0 ridge;
       }
     }
   }

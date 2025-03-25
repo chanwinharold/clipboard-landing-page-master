@@ -38,12 +38,14 @@
             color: white;
             font-weight: 600;
             opacity: 1;
+            border-bottom: 8px ridge;
             &:hover {
                 cursor: pointer;
                 opacity: 0.8;
             }
             &:active {
                 box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+                border-bottom: 0 ridge;
             }
         }
     }
