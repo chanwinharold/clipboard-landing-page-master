@@ -151,8 +151,12 @@
             root:null,
             threshold:0.01,
         };
+        let options_2 = {
+            root:null,
+            threshold:0.3,
+        };
         let observer = new IntersectionObserver(handleIntersect, options)
-        let observer_2 = new IntersectionObserver(handleIntersect_2, options)
+        let observer_2 = new IntersectionObserver(handleIntersect_2, options_2)
 
         observer.observe(image)
         observer_2.observe(image_2)
